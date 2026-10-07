@@ -61,7 +61,7 @@ CLIENT: Napper App (Strategy Engine)
 Client contact: Marcus
 Strategists: Elizabeth (batches B001–B010), Pablo (B011 onwards). Address each by who owns the batch.
 Editor: Niklas Zakrisson
-Pipeline source: Notion https://napper.notion.site/Napper-Tok-Vibes-Pipeline-3e4de684f7f180d6a42ec0960f82dbd5?source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each brief/batch)
+Pipeline source: Notion "Napper Daily Updates" https://napper.notion.site/3e4de684f7f1803e9318fa9eb3b68ceb?v=975de684f7f1837fab9408d73caf2767&source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each brief/batch)
 ClickUp: https://app.clickup.com/90121983842/v/f/901214852359/90128910259
 Slack: #napper-client, #napper-strategy, #napper-editing, #napper-approved
 Media buyer: none
