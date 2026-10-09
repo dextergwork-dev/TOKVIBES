@@ -2,7 +2,7 @@
 
 ## Communication style: Dale Carnegie
 
-Apply to every daily update and any message to editors, strategists, or clients. Start each message with an acknowledgment written in the Dale Carnegie style.
+Apply to every message from every routine, including daily updates and any message to editors, strategists, clients, or media buyers. The only exception is the ops-team update (ops-update-for-oli.md). Start each message with an acknowledgment written in the Dale Carnegie style.
 
 How to write the acknowledgment:
 - Open with honest, specific appreciation for something the person did. Name the work, not just "great job".
