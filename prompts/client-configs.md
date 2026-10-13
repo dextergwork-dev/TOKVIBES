@@ -28,6 +28,11 @@ Pipeline source: ClickUp https://app.clickup.com/90121983842/v/f/901214943606/90
 Slack: #hommey-client, #Hommey-strategy, #hommey-editing (no approved channel)
 Notion: none
 Media buyer: none
+Standing rules (do NOT list these as Action for Dexter, and do not draft them):
+- All client communication is handled by Oli: replies to client questions (e.g. Maya's priority list), Frame.io or Figma access requests from the client, and telling the client about extra variants. Mention client messages only as "Oli's to answer".
+- Editor test docs: the B004 test doc stays named "Mark" until the editor passes the test (his real name is Maik). Do not flag it for renaming.
+- B005 stays unassigned until the editor tests (Sarah and Maik) finish. Do not flag it as a to-do to reassign.
+- Editor test outreach on X is done. Do not list it.
 ```
 
 ## Tulas
