@@ -21,7 +21,8 @@ Use the morning briefings in Dexter's Slack self-DM (one per client, titled "[CL
 - Blockers still open: Editing or Edit Feedback > 2 days; Brief Review, Brief Feedback or Edit Review > 1 day, with owner's name.
 - Wins: approvals, positive client feedback, batches delivered or sent to tracker, blockers cleared, good ETAs hit.
 - Client messages that need Oli: client questions about scope, pricing, contracts, complaints, escalations, or anything needing a decision above Dexter.
-Skip Atolea and Carbinox unless something unusual came up. Tulas Notion is not accessible; do not check it.
+ATOLEA: read the private Slack channel #creative-strategy-oli9819 (ID C0AAGP7PCVB, Atolea workspace, read-only) for messages since yesterday 10:00 AM. Report new asks, feedback, approvals, and anything that needs Oli or Dexter, as one Atolea line in By client.
+Skip Carbinox unless something unusual came up. Tulas Notion is not accessible; do not check it.
 
 ## STEP 2B: OPS TRACKERS (ClickUp, read-only)
 Use clickup_filter_tasks / clickup_search / clickup_get_task. Dates in America/New_York.
@@ -35,7 +36,7 @@ Use clickup_filter_tasks / clickup_search / clickup_get_task. Dates in America/N
 **Rounds:** done / pending (name which)
 **Overall:** one line, e.g. "6 on track, 2 need attention"
 **Wins:** 2-4 bullets.
-**By client:** one line each, in this order: Earthling Co, Hommey, Tulas, Ivy Food Scanning App, Napper App, Longwell & Co App, LuxFord Tech App, Madam Muse App. Format: 🟢/🟡/🔴 **Client**: key movement, counts only, no batch names (e.g. "2 approved and sent to tracker, 1 in editing").
+**By client:** one line each, in this order: Earthling Co, Hommey, Tulas, Ivy Food Scanning App, Napper App, Longwell & Co App, LuxFord Tech App, Madam Muse App, Atolea. Format: 🟢/🟡/🔴 **Client**: key movement, counts only, no batch names (e.g. "2 approved and sent to tracker, 1 in editing").
 **🚩 Blockers:** client, status, owner's name, days stuck, what I did about it. Or "None".
 **Strategist delivery:** weeks due this week, last week's results (on time X of Y), past-due weeks with strategist and status, who gave an ETA. Or "No tracker data".
 **Tasks (me & Oli):** overdue / due today / due tomorrow, plus worth adding suggestions.
