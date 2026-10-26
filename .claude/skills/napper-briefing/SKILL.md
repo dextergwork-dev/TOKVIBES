@@ -1,6 +1,6 @@
 ---
 name: napper-briefing
-description: Run the Napper App (Strategy Engine) daily client movement briefing for Dexter, as the 8:30 AM ET morning run or the 12:30 PM ET midday rerun. Use whenever Dexter asks for the Napper morning brief, latest Napper update, Napper status, "rerun the briefing for Napper", or what moved on Napper, even if he doesn't say "briefing". Covers Notion pipeline posts, ClickUp, Slack, Gmail and Fireflies. Read-only; delivers the briefing and copy-paste drafts in chat.
+description: Run the Napper App (Strategy Engine) daily client movement briefing for Dexter, as the 8:30 AM ET morning run or the 12:30 PM ET midday rerun. Use whenever Dexter asks for the Napper morning brief, latest Napper update, Napper status, "rerun the briefing for Napper", or what moved on Napper, even if he doesn't say "briefing". Covers Notion pipeline posts, the Deliveries | Napper launch spreadsheet, ClickUp, Slack, Gmail and Fireflies. Read-only; delivers the briefing and copy-paste drafts in chat.
 ---
 
 # DAILY CLIENT MOVEMENT BRIEFING: TokVibes (Napper App, Strategy Engine)
@@ -56,6 +56,15 @@ The Notion pipeline lives in Napper's workspace (https://app.notion.com/p/napper
 - ClickUp.
 Label counts you could not verify as "No data" or "estimated, unverified". If Dexter pastes the Notion board or a screenshot, use it as the source of truth and recount per status. Days are approximate when based on "last edited".
 
+## STEP 1B: LAUNCH SPREADSHEET (always check)
+Read the "Deliveries | Napper" Google Sheet with the Google Drive connector (read_file_content, file ID 1s6wzK9ndsOh6UuYlM7Ppgv4SAi5ik66oLa-oUBlI17E, link https://docs.google.com/spreadsheets/d/1s6wzK9ndsOh6UuYlM7Ppgv4SAi5ik66oLa-oUBlI17E/edit?gid=0#gid=0). It is the Ready to Launch / launch tracker shared with Napper and the best source for what is actually live.
+- Columns: Sprint, Brief # (B001...), No. Of Variations, Style, Final Creatives (TOKB0X), Status, Date Launched.
+- Statuses seen: Launched (with a date), Delivered (sent, not yet launched), In Production (still being edited). Blank rows mean not delivered yet.
+- Report each run: how many are Launched, Delivered, In Production, and which launches are new since the last briefing (new dates or status changes). Report launch dates by day.
+- Compare with Notion and ClickUp: if the sheet says Launched but Notion still says Added to Tracker or Ready to Launch, flag it for Dexter (Marcus needs to update Notion). If a batch Dexter sent as Ready to Launch is still Delivered after several days, flag it.
+- If the sheet is empty, unreachable or the format changed, say so.
+Read-only. Never edit the sheet.
+
 ## STEP 2: BLOCKER RULES
 Flag 🚩 BLOCKER: Editing or Edit Feedback for MORE than 2 days; Brief Review, Brief Feedback or Edit Review for MORE than 1 day. Also flag any batch sitting in Ready to Edit for more than 2 days and Approved - Prep Files waiting on Dexter. Give count, status, owner's name, days stuck. Name specific batches only in the briefing section, never in drafts.
 
@@ -83,7 +92,8 @@ Oli said on Oct 21 she doesn't want to continue Napper beyond this sprint and wo
 **Napper App | Morning Briefing | [Weekday, Date]**
 **Status:** 🟢 On track / 🟡 Needs attention / 🔴 At risk (one-line reason)
 **Pipeline counts:** Brief Review # · Brief Feedback # · Ready to Edit # · Editing # · Edit Review # · Edit Feedback # · Approved - Prep Files # (say "estimated, unverified" when Notion was unreadable)
-**What moved:** Slack / Notion / ClickUp / Email / Fireflies, one line each. "No activity" where empty.
+**Launched (per Deliveries sheet):** # Launched · # Delivered · # In Production, and what is new since last time (batch, date). Note any mismatch with Notion.
+**What moved:** Slack / Notion / Sheet / ClickUp / Email / Fireflies, one line each. "No activity" where empty.
 **🚩 Blockers:** per rules, or "None".
 **Action for Dexter:** numbered, specific.
 **Drafts:**
@@ -96,7 +106,7 @@ Only draft when there is something to say.
 ## MIDDAY OUTPUT (final response in this chat)
 **Napper App | Midday Update | [Weekday, Date], 12:30 PM ET**
 **Since 8:30 AM:** "Movement" or "No movement".
-**Changes:** only what changed, one line each, with counts compared to the morning like "Editing 3 (+1)".
+**Changes:** only what changed, one line each, with counts compared to the morning like "Editing 3 (+1)". Include any new Launched rows or status changes in the Deliveries sheet.
 **🚩 Blockers:** new or still open, or "None".
 **Action for Dexter:** only new items.
 **Draft:** only if something new needs a reply, otherwise "No new drafts".
