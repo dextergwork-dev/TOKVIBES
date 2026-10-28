@@ -49,7 +49,7 @@ CLIENT: Ivy Food Scanning App (Production Engine)
 Client contact: Ramzy
 Strategist: Kofoshi
 Editors: Faiaz (Video, main), Joseph (Video, on test; note in the briefing how his work is progressing and any issues)
-Pipeline source: ClickUp https://app.clickup.com/90121983842/v/f/901214687221/901210174682. Main focus: the movement of each brief/batch.
+Pipeline source: ClickUp https://app.clickup.com/90121983842/v/f/901214687221/901210174682. Main focus: the movement of each batch.
 Slack: #ivy-client, #ivy-strategy, #ivy-editing-faiaz, #ivy-editing-test, #ivy-approved
 Notion: none (deliverables are uploaded to the client)
 Media buyer: none
@@ -61,7 +61,7 @@ CLIENT: Napper App (Strategy Engine)
 Client contact: Marcus
 Strategists: Elizabeth (batches B001–B010), Pablo (B011 onwards). Address each by who owns the batch.
 Editor: Niklas Zakrisson
-Pipeline source: Notion https://napper.notion.site/Napper-Tok-Vibes-Pipeline-3e4de684f7f180d6a42ec0960f82dbd5?source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each brief/batch)
+Pipeline source: Notion https://napper.notion.site/Napper-Tok-Vibes-Pipeline-3e4de684f7f180d6a42ec0960f82dbd5?source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each batch)
 ClickUp: https://app.clickup.com/90121983842/v/f/901214852359/90128910259
 Slack: #napper-client, #napper-strategy, #napper-editing, #napper-approved
 Media buyer: none
@@ -73,7 +73,7 @@ CLIENT: Longwell & Co App (Strategy Engine)
 Client contact: Saru
 Strategist: Kiana Jacino
 Editors: Abdul and Wahaj (Video), Hashir (Statics)
-Pipeline source: Notion https://standing-tungsten-e93.notion.site/3d531bb3a6708004afe5c5bde1844cc8?v=3d531bb3a670802d92b6000cdb9b18d2&source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each brief/batch)
+Pipeline source: Notion https://standing-tungsten-e93.notion.site/3d531bb3a6708004afe5c5bde1844cc8?v=3d531bb3a670802d92b6000cdb9b18d2&source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each batch)
 ClickUp: https://app.clickup.com/90121983842/v/f/901213879634/90128910259
 Slack: #longwellco-client, #longwellco-strategy, #longwellco-editing, #longwellco-approved
 Media buyer: none
@@ -85,7 +85,7 @@ CLIENT: LuxFord Tech App (Strategy Engine)
 Client contact: Jordan
 Strategist: Pablo
 Editor: Aleksandar
-Pipeline source: Notion https://cheddar-entrance-4f2.notion.site/Tok-Vibes-Luxford-Pipeline-3d64214161de80c5a7bcedea3b8f449f?source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each brief/batch)
+Pipeline source: Notion https://cheddar-entrance-4f2.notion.site/Tok-Vibes-Luxford-Pipeline-3d64214161de80c5a7bcedea3b8f449f?source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each batch)
 ClickUp: https://app.clickup.com/90121983842/v/f/901214438595/90128910259
 Slack: #luxfordtech-client, #luxfordtech-strategy, #luxfordtech-editing (no approved channel)
 Media buyer: none
@@ -97,7 +97,7 @@ CLIENT: Madam Muse App (Strategy Engine)
 Client contact: Ronan
 Strategist: Areeb
 Editors: Princess and Jade (Video), Yen (Statics)
-Pipeline source: Notion https://pear-custard-2df.notion.site/3a50be0b949f80238d38d1e645494e12?v=3a50be0b949f8090be73000cf147f8bd&source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each brief/batch)
+Pipeline source: Notion https://pear-custard-2df.notion.site/3a50be0b949f80238d38d1e645494e12?v=3a50be0b949f8090be73000cf147f8bd&source=copy_link (check Brief Review, Ready to Edit, Edit Review, Edit Feedback, Brief Feedback, Approved - Prep Files and the movement of each batch)
 ClickUp: https://app.clickup.com/90121983842/v/f/901213319137/90128910259
 Slack: #madammuse-client, #madammuse-strategy, #madammuse-editing (no approved channel)
 Media buyer: none

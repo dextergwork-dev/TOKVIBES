@@ -1,5 +1,10 @@
 # WEDNESDAY STRATEGIST UPDATE — TokVibes (#tokvibes-a-team)
 
+## Terminology (use everywhere: briefing, snapshot and drafts)
+- "Batch" / "batches": a brief, the B-numbered unit (B001, B002 and so on). Count briefs as batches.
+- "Creative" / "creatives": the variations inside a batch (V1, V2, _Variation_1 and so on).
+- In counts and drafts, say "batches" for briefs and "creatives" for variations, never "ads". Status names like Brief Review and Brief Feedback stay as they are. Example: "2 batches are in Editing, with 6 creatives ready to launch."
+
 Cloud routine: Wednesdays at 11:00 AM Eastern (cron 0 15 * * 3 in UTC; after the Nov 1 clock change it runs at 10:00 AM Eastern unless shifted to 16:00 UTC). Posts automatically to #tokvibes-a-team (C0B0KC8BU01), as authorized by Dexter. Also DMs Dexter a copy.
 
 ## ROLE
