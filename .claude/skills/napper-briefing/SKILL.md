@@ -32,7 +32,7 @@ Work out today's weekday in America/New_York.
 ## PEOPLE AND CHANNELS
 - Client: Marcus (U06P69VVCG5) and Elise (U08G8GQ72UA), @napper.se. Channel #napper-client (C0C3CAT6PFY) is shared with Napper.
 - Strategist: Areeb (U0BJDQEG7V1). He replaced Elizabeth and Pablo, who left. Channel #napper-strategy (C0C3G7XCPHP). Oli (U06KC397Y2U) also posts there.
-- Editors: Hanna Witt (U0BUMF5G80G) is the main editor. She works for Napper, so her capacity competes with her Napper tasks. Niklas Zakrisson (U0AQJBM1DLY) is the second editor and also makes revisions and some versions. Channel #napper-editor (C0C3E6NQTK4).
+- Editors: Niklas Zakrisson (U0AQJBM1DLY) has been the primary editor since Oct 26, when he took over Hanna's workload. Hanna Witt (U0BUMF5G80G) works for Napper and is now backup, stepping in only if things get busy. Niklas generates AI assets, which has been slow. Channel #napper-editor (C0C3E6NQTK4).
 - Approved channel: #napper-approved (C0C57T695GX), private to Dexter. New items there are batches Dexter must send to the client's tracker.
 - Dexter: U0AU7289QMB. Oli: U06KC397Y2U.
 Read thread replies, not just top-level messages.
@@ -50,7 +50,7 @@ Notion statuses and who owns them:
 ClickUp's "launched" status on a batch means the brief was delivered, not that the ad is live. Don't read it as an ad launch.
 
 ## STEP 1: PIPELINE STATE
-The Notion pipeline lives in Napper's workspace (https://app.notion.com/p/napper/Napper-Tok-Vibes-Pipeline-3e4de684f7f180d6a42ec0960f82dbd5). Try notion-fetch first. It has returned 404 every time so far because the connected account has no access. If it fails, say so plainly and rebuild status movement from:
+The Notion pipeline lives in Napper's workspace (https://app.notion.com/p/napper/Napper-Tok-Vibes-Pipeline-3e4de684f7f180d6a42ec0960f82dbd5). Try notion-fetch first. It has returned 404 every time so far because the connected account has no access (Dexter confirmed on Oct 28 that only one Notion workspace can be connected, and Napper's is not). If it fails, say so plainly and rebuild status movement from:
 - the Notion bot posts ("X edited in Napper <> Tok-Vibes Pipelines") in #napper-strategy, #napper-editor, #napper-approved and #napper-client (they show BRIEF REVIEW, EDIT REVIEW AVAILABLE, Revisions Needed, Approved - Prep Files, Ready to Launch),
 - Notion comment emails in Dexter's Gmail,
 - ClickUp.
@@ -85,8 +85,14 @@ Search Fireflies for meetings in the window that mention Napper, Marcus, Elise, 
 ## NAMING RULE (ongoing issue)
 Every launched ad must carry the TOKB0X batch name (for example TOKB012), with variations like TOKB001_Variation_1. Napper has labeled some ads "TOK 2026", which can't be traced to a batch. Marcus also needs to switch launched batches to Launched in the Notion tracker. Check for updates on both every run.
 
-## CONFIDENTIAL CONTEXT (never put in client-facing drafts)
-Oli said on Oct 21 she doesn't want to continue Napper beyond this sprint and would move Napper to Done For You, with Areeb shifting to a new brand afterward. Dexter knows. Keep this out of every draft to Marcus, Elise or Hanna. It is fine to mention in the briefing for Dexter only if relevant.
+## ENGAGEMENT STATUS (internal, keep out of client drafts)
+Oli confirmed on Oct 26 that Napper is continuing and asked Areeb and Dexter to prep the next sprint (the earlier Oct 21 plan to wind Napper down is cancelled). Dexter creates the next sprint in ClickUp. Do not mention renewal, sprints or contracts in drafts to Marcus, Elise or Hanna, and no next-sprint question.
+
+## AD ROADMAP AND LEARNINGS (internal)
+Oli wants Areeb to fill the ad roadmap before batches reach editing: what each batch is about, then winner/loser labels and learnings. B004 is the first winner (launched Oct 21, now iterated in several languages). Areeb's B004 breakdown and the roadmap sheet are linked in #napper-strategy (https://docs.google.com/spreadsheets/d/1Z_qc3bUeD8yQruQBpW0N288IG6N7sxoOk5FOC14K4Jw). Oli noted batches from B011 on have no data yet. Check whether this is being filled in.
+
+## OPEN CLIENT ASKS
+Dexter asked Marcus (Oct 27) to approve testing one concept with an AI animated character. Marcus wants a few examples and needs to check with brand. Track this until he answers.
 
 ## MORNING OUTPUT (final response in this chat)
 **Napper App | Morning Briefing | [Weekday, Date]**
