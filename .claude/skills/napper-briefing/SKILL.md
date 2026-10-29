@@ -74,6 +74,7 @@ Scan #napper-client, #napper-strategy, #napper-editor and #napper-approved for t
 ## STEP 4: CLICKUP
 - Client folder "Napper [SE]" (folder 901214852359), list Sprint 1 (901222380069): weeks and batches (B0xx), statuses, due dates. Sprint 1 is 9/28 to 10/25 but Dexter told the client it runs about a week later.
 - Operations tasks (list 901220530358): a ClickUp automation creates a "Napper App-Sprint 1-B0xx | BRIEF REVIEW" task for Oli when a batch moves to Brief Review. Search "Napper" there for new, updated or overdue tasks, and also the Finance lists (sprint billing, retainer notice) for Napper items.
+- Sprint 2 (10/26 to 11/29) exists in ClickUp, but Sprint 1 batches are still being finished. Copies of B011-B025 sit in Sprint 2 as "not started". Dexter confirmed that is expected, so don't flag them as unfinished work. Track real progress in Sprint 1 and the Notion bot posts.
 Link ClickUp tasks as markdown links with the task name as anchor text.
 
 ## STEP 5: GMAIL
