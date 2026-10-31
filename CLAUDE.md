@@ -17,3 +17,11 @@ Per audience:
 - Clients: thank them for their trust or feedback. Lead with the result they care about.
 
 Keep the tone warm and sincere. No flattery that is not true. No em dashes.
+
+## Google Maps scrapes
+
+After a google-maps-scraper crawl, build the leads file with:
+
+    python3 scripts/gmaps-export.py <results.csv> leads/<name>.csv
+
+It dedupes, sorts by review count, and splits the address into Address 1, City, State (2-letter) and Zip with no country. Keep lead files in `leads/` (gitignored).
