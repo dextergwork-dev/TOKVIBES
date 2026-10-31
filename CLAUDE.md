@@ -24,4 +24,4 @@ After a google-maps-scraper crawl, build the leads file with:
 
     python3 scripts/gmaps-export.py <results.csv> leads/<name>.csv
 
-It dedupes, sorts by review count, and splits the address into Address 1, City, State (2-letter) and Zip with no country. Keep lead files in `leads/` (gitignored).
+It dedupes, sorts by review count, and splits the address into Address 1, City, State (2-letter) and Zip with no country, and drops the +1 from phone numbers. Keep lead files in `leads/` (gitignored).

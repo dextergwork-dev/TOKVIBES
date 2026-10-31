@@ -26,6 +26,10 @@ HEADER = ["Business", "Category", "Rating", "Reviews", "Phone", "Website",
           "Address 1", "City", "State", "Zip", "Google Maps"]
 
 
+def clean_phone(raw):
+    return raw[2:].strip() if raw.startswith("+1 ") else raw
+
+
 def split_address(raw):
     try:
         parts = json.loads(raw) if raw else {}
@@ -57,7 +61,7 @@ def main(source, target):
             writer.writerow([
                 r.get("title", ""), r.get("category", ""),
                 f"{float(rating):g}" if rating else "", r.get("review_count", ""),
-                r.get("phone", ""), r.get("website", ""),
+                clean_phone(r.get("phone", "")), r.get("website", ""),
                 *split_address(r.get("complete_address", "")),
                 r.get("link", ""),
             ])
