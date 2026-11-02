@@ -34,7 +34,7 @@ Longwell & Co and LuxFord Tech are archived in ClickUp; skip them unless Dexter 
 4. PENDING: replies Dexter is waiting on (strategists, editors, clients), open hiring tests, and internal asks from Oli that are not done. Check Oli's messages in #ops-team since the last update and Dexter's replies. Slack, Gmail and Fireflies are read-only.
 
 ## STEP 3: WRITE THE DRAFT
-Slack format, first person as Dexter, scannable, counts only (no batch IDs) everywhere EXCEPT the "Client communication sent" section, where batch IDs marked Ready to Launch may stay. No em dashes. Begin with one or two sentences of honest, specific appreciation to Oli in the Dale Carnegie style (see CLAUDE.md), then the update.
+Slack format, first person as Dexter, scannable, counts only. NEVER write batch IDs or brief numbers anywhere, including "Client communication sent" (write "4 batches are ready for their review, 2 are ready to launch", not "B027, B018"). No em dashes. Begin with one or two sentences of honest, specific appreciation to Oli in the Dale Carnegie style (see CLAUDE.md), then the update.
 
 Use exactly this structure:
 
