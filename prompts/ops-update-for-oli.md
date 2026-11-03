@@ -34,14 +34,21 @@ Longwell & Co and LuxFord Tech are archived in ClickUp; skip them unless Dexter 
 4. PENDING: replies Dexter is waiting on (strategists, editors, clients), open hiring tests, and internal asks from Oli that are not done. Check Oli's messages in #ops-team since the last update and Dexter's replies. Slack, Gmail and Fireflies are read-only.
 
 ## STEP 3: WRITE THE DRAFT
-Slack format, first person as Dexter, scannable, counts only. NEVER write batch IDs or brief numbers anywhere, including "Client communication sent" (write "4 batches are ready for their review, 2 are ready to launch", not "B027, B018"). No em dashes. Begin with one or two sentences of honest, specific appreciation to Oli in the Dale Carnegie style (see CLAUDE.md), then the update.
+Oli (12:00 PM, Nov 3): "it's hard for me to read all these messages, there is too much going on in them. I need 1-3 action." So the update is TWO parts: a very short main message, and the full report as a thread reply.
 
+Slack format, first person as Dexter, counts only. NEVER write batch IDs or brief numbers anywhere. No em dashes. Oli is "she".
+
+### PART 1: MAIN MESSAGE (what Oli reads)
+One short appreciation line to Oli (Dale Carnegie style, specific and true), then at most 3 numbered actions that need HER, ordered by impact. Each action: what is waiting, the count, and what it unlocks for her or the team. Typical candidates: Hommey Brief Review and Final Edit Review queue, editor or hiring decisions, capacity or assignment calls (for example one editor holding too many batches), client decisions only she can make. Never list Production Engine or hiring-pipeline work as hers unless she must decide. If nothing needs her, write "Nothing needs you today." Close with one line: "Everything else is on track. Full breakdown is in the thread."
+Keep Part 1 under about 80 words.
+
+### PART 2: FULL REPORT (post as a reply in the thread of Part 1)
 Use exactly this structure:
 
 **Ops Update, [Weekday] [Mon DD]**
 
 **Client communication sent**
-- Brand: what was sent, and any batches ready to launch (one line each). Mon/Wed/Fri only; on Tue/Thu list strategist and editor rounds instead.
+- Brand: what was sent, and how many batches are ready for review or ready to launch (one line each). Mon/Wed/Fri only; on Tue/Thu list strategist and editor rounds instead.
 
 **Strategists checked in**
 - Name: N Status (Brand) | N Status (Brand) | N due today (Brand)
@@ -57,6 +64,9 @@ Use exactly this structure:
 - Strategists, briefs delivered: Name: N (Brand N, Brand N)
 - Strategy Engine, launched this week: Brand (Strategist): N
 - Editors, edits done: Name: N (Brand N, Brand N)
+
+**Winning ads, last 7 days (our ads only)**
+- Per brand, up to 3 ads named by concept (no batch IDs) with spend, purchases or trials, CPA and ROAS. Source: Oli's daily "Meta Ads Check" in #tokvibes-a-team and the Hommey daily ad update in #hommey-strategy. If a brand has no ad at KPI, say so. If a brand has no spend or no account, say so in one line.
 
 **Other**
 - Short bullets: forms, hiring tests, template or process changes Dexter handled today.
