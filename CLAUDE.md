@@ -17,3 +17,7 @@ Per audience:
 - Clients: thank them for their trust or feedback. Lead with the result they care about.
 
 Keep the tone warm and sincere. No flattery that is not true. No em dashes.
+
+## Ops rules
+
+- Faiaz Nihal (editor) is capped at 3 brands, from now on (set Nov 3). Today he covers Hommey, Madam Muse and Ivy. Never assign him a 4th brand. When a new brand or extra batches need an editor, route them to another editor (for example Faisal, once onboarded) and flag the capacity issue to Oli instead.

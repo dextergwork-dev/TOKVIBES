@@ -77,4 +77,5 @@ Use exactly this structure:
 - Internal: open asks from Oli.
 
 ## RULES
+Capacity rule: Faiaz Nihal is capped at 3 brands (currently Hommey, Madam Muse, Ivy). Never suggest or draft assigning him a 4th brand; if an editor is needed, suggest another editor and put the capacity call in Oli's actions.
 Never fabricate; if data is missing, write "no data". No secrets or private quotes. Use client names and counts only. Do not include ops tasks (Operation Tasks list), Billing Queue or Bills to Pay unless Dexter asks. If the Slack draft tool fails, say so in the self-DM and include the full draft text there so nothing is lost.
