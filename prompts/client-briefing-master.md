@@ -30,7 +30,7 @@ Read thread replies, not just top-level messages.
 Read the pipeline source in CLIENT CONFIG (Notion database for Strategy Engine clients, ClickUp for others). For each brief/batch record: status, owner (map above), when it entered that status, and any movement in the last 24h. Count batches per status. Counts only; never name batches or batch numbers in drafted messages. If ClickUp status names differ, map to nearest equivalent and say so. Skip any ClickUp sprint that is Archived or Done, plus any sprint the config says to skip.
 
 ## STEP 2: BLOCKER RULES (always apply)
-Flag 🚩 BLOCKER: Editing or Edit Feedback for MORE than 2 days; Brief Review, Brief Feedback or Edit Review for MORE than 1 day. Give count, status, owner's name, days stuck. Name the specific batch only in the briefing section, never in drafts.
+Flag 🚩 BLOCKER: Ready to Edit for MORE than 24 hours (all brands); Editing or Edit Feedback for MORE than 2 days; Brief Review, Brief Feedback or Edit Review for MORE than 1 day. Give count, status, owner's name, days stuck. Name the specific batch only in the briefing section, never in drafts.
 
 ## STEP 3: SLACK SCAN
 Scan client, strategy and editing channels in the config for the last 24h. Capture: client messages needing acknowledgement or an answer (quote briefly, who/when), strategist/editor replies, ETAs given or silence, anything requested but unanswered by us. Check the Approved channel for new items.
