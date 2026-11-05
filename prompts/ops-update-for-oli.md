@@ -18,7 +18,7 @@ Use the morning briefings in Dexter's Slack self-DM (one per client, titled "[CL
 - Client replies or approvals today (Slack, Gmail read-only).
 - Fireflies meetings today (read-only): any meeting where client updates, feedback, decisions or action items were discussed. Include real outcomes in Wins, By client, Client messages that need Oli, or Needs Oli as appropriate. Never quote transcripts at length.
 - Strategist and editor ETAs given today.
-- Blockers still open: Ready to Edit > 24 hours (all brands); Editing or Edit Feedback > 2 days; Brief Review, Brief Feedback or Edit Review > 1 day, with owner's name.
+- Blockers still open: Ready to Edit > 24 hours (all brands); Editing, Edit Feedback, Brief Review, Brief Feedback or Edit Review > 2 days (all brands), with owner's name.
 - Wins: approvals, positive client feedback, batches delivered or sent to tracker, blockers cleared, good ETAs hit.
 - Client messages that need Oli: client questions about scope, pricing, contracts, complaints, escalations, or anything needing a decision above Dexter.
 Skip Atolea and Carbinox unless something unusual came up. Tulas Notion is not accessible; do not check it.
