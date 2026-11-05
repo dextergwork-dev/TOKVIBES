@@ -22,17 +22,21 @@ Media buyer: none
 ```
 CLIENT: Hommey (DFY Engine)
 Client contacts: Justin Kestelman, Jessica Wilks, Tess, Maya Masri, James Robb (address whichever contact is active in the channel)
-Strategist: Kofoshi
-Editors: Faiaz (Video), Celina (Statics)
+Strategists: Kofoshi, Sofia
+Editors: Faiaz (Video), Nouman (Statics), Mihajlo (freelance)
 Pipeline source: ClickUp https://app.clickup.com/90121983842/v/f/901214943606/901210528489
-Slack: #hommey-client, #Hommey-strategy, #hommey-editing (no approved channel)
+Slack: #hommey-client, #Hommey-strategy, #hommey-editing, #ops-team (no approved channel)
 Notion: none
 Media buyer: none
 Standing rules (do NOT list these as Action for Dexter, and do not draft them):
 - All client communication is handled by Oli: replies to client questions (e.g. Maya's priority list), Frame.io or Figma access requests from the client, and telling the client about extra variants. Mention client messages only as "Oli's to answer".
 - Editor test docs: the B004 test doc stays named "Mark" until the editor passes the test (his real name is Maik). Do not flag it for renaming.
-- B005 stays unassigned until the editor tests (Sarah and Maik) finish. Do not flag it as a to-do to reassign.
 - Editor test outreach on X is done. Do not list it.
+- Under Review means the client is reviewing (Australia, usually 7 to 8 PM ET). Never list it as an action or ask Dexter to chase it. Just count it.
+- Anything not Hommey (new client sprints, Atolea, Ivy) goes in the #ops-team update, not the Hommey brief.
+- Oli goes by she.
+- Dexter posts Edit Reviews and Ready to Launch batches himself in the #hommey-client threads (Edit Reviews: https://tok-vibes.slack.com/archives/C0C50TL131P/p1792764388388179, Ready to Launch: https://tok-vibes.slack.com/archives/C0C50TL131P/p1791819597047639). Do not list "send to client review" or "post Ready to Launch" as actions.
+- Pipeline statuses now include Final Edit Review (Oli) after Edit Review (Strategist). Blocker rules also apply to Final Edit Review (more than 1 day).
 ```
 
 ## Tulas
