@@ -73,6 +73,7 @@ Short, 3 to 5 lines, for #hommey-client. Dale Carnegie tone: thank them for some
   - *Ready to launch: N batches* (status Ready to Launch). Say they are waiting in the Ready to Launch thread, tag James and Jessica, and ask for a ✅ on the post.
   - *Ready to review: N batches* (statuses Send client review and Under Review). Tag Jessica and Tess and point to the Edit Review thread.
 - Skip a part only when its count is 0.
+- Do not list batch numbers or per-batch links in the summary. The threads already list them. Instead, hyperlink the words "Ready to Launch thread" and "Edit Review thread" to the two thread URLs in the standing rules.
 - Mention "more are with our editors" in one line. No internal status names, no blockers, no editor or strategist names.
 - Include the latest real lesson from Oli's daily update only if Dexter asks for it, kept to one line.
 - Nudge, never chase. No full stops at the end of headline-style lines.
