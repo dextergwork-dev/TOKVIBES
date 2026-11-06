@@ -66,6 +66,16 @@ Flag a BLOCKER when Editing or Edit Feedback lasts more than 2 days, or when Bri
 - Editor drafts: ETA on what is in Editing, how many Edit Feedback are waiting.
 - Client drafts only if Dexter asks, and remember client replies are Oli's.
 
+## Client update draft (when Dexter asks, usually Mon, Wed or Fri)
+Short, 3 to 5 lines, for #hommey-client. Dale Carnegie tone: thank them for something real first (for example James getting batches live fast), then the ask, then a warm close. Rules:
+- Counts only. Never name batch numbers unless Dexter asks.
+- Ready to Launch: say how many are waiting in the Ready to Launch thread, tag James and Jessica, and ask for a ✅ on the post.
+- Ready to Review: tag Jessica and Tess, point to the Edit Review thread.
+- Mention "more are with our editors" in one line. No internal status names, no blockers, no editor or strategist names.
+- Include the latest real lesson from Oli's daily update only if Dexter asks for it, kept to one line.
+- Nudge, never chase. No full stops at the end of headline-style lines.
+- Oli answers any client question that comes back. Do not draft replies to those.
+
 Close with one line offering the most useful next draft.
 
 ## Rules
