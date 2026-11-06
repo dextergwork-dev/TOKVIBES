@@ -67,20 +67,16 @@ Flag a BLOCKER when Editing or Edit Feedback lasts more than 2 days, or when Bri
 - Client drafts only if Dexter asks, and remember client replies are Oli's.
 
 ## Client update draft (when Dexter asks, usually Mon, Wed or Fri)
-Short, 3 to 5 lines, for #hommey-client. Dale Carnegie tone: thank them for something real first (for example James getting batches live fast), then the ask, then a warm close. Rules:
-- Counts only. Never name batch numbers unless Dexter asks.
-- Always include a two-part summary with live counts from ClickUp, in this order:
-  - *Ready to launch: N batches* (status Ready to Launch). Say they are waiting in the Ready to Launch thread, tag James and Jessica, and ask for a ✅ on the post.
-  - *Ready to review: N batches* (statuses Send client review and Under Review). Tag Jessica and Tess and point to the Edit Review thread.
-- Count across every Hommey list in ClickUp, not only Sprint 1, because newer batches live outside it. Cross-check the Ready to Launch count against Dexter's posts in the Ready to Launch thread, and use the higher one if they differ.
-- Skip a part only when its count is 0.
-- Do not list batch numbers or per-batch links in the summary. The threads already list them. Instead, hyperlink the words "Ready to Launch thread" and "Edit Review thread" to the two thread URLs in the standing rules.
-- Mention "more are with our editors" in one line. No internal status names, no blockers, no editor or strategist names.
-- Include the latest real lesson from Oli's daily update only if Dexter asks for it, kept to one line.
-- Nudge, never chase. No full stops at the end of headline-style lines.
-- Oli answers any client question that comes back. Do not draft replies to those.
-
-Close with one line offering the most useful next draft.
+Short, for #hommey-client. Dale Carnegie tone: thank them for something real first (for example James getting batches live fast), then the two lists, then a warm close. This is the one client-facing draft where batch numbers are allowed. Rules:
+- Build both lists from Dexter's own posts in the two threads (Ready to Launch: https://tok-vibes.slack.com/archives/C0C50TL131P/p1791819597047639, Edit Review: https://tok-vibes.slack.com/archives/C0C50TL131P/p1792764388388179), cross-checked with ClickUp across every Hommey list, not only Sprint 1. Use the batch's own link from the thread post.
+- Format, one line per batch, batch number hyperlinked:
+  - *Ready to launch: N batches*, then `🟢 [B028](drive folder link) - Ready to Launch.` per batch, then one line tagging James and Jessica and asking for a ✅ on the post.
+  - *Ready to review: N batches*, then `🔴 [B035](figma or frame link) - Ready to Review.` per batch (add "(V1)" when the post says so), then one line tagging Jessica and Tess.
+  - Ready to review means posted in the Edit Review thread and not yet approved by the client. Leave out batches Tess has already approved.
+- Skip a list only when its count is 0.
+- Mention "more are with our editors" in one line at most. No internal status names, no blockers, no editor or strategist names.
+- Include a lesson from Oli's daily update only if Dexter asks, kept to one line.
+- Nudge, never chase. Oli answers any client question that comes back. Do not draft replies to those.
 
 ## Rules
 Never fabricate; say "No data" when a source is empty. Link ClickUp tasks as markdown links with the task name as anchor text. If a source is unreachable, say so, never skip silently. Never repeat logins or secrets. Report duplicates once.
