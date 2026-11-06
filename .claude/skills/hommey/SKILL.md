@@ -47,7 +47,7 @@ Flag a BLOCKER when Editing or Edit Feedback lasts more than 2 days, or when Bri
 - Anything that is not Hommey (for example onboarding a new client's sprint, Atolea, Ivy) does not go in the Hommey brief. It belongs in the #ops-team update. Leave it out of "Needs you today".
 - Oli goes by she.
 - Client threads in #hommey-client: Edit Reviews go in https://tok-vibes.slack.com/archives/C0C50TL131P/p1792764388388179 and Ready to Launch batches go in https://tok-vibes.slack.com/archives/C0C50TL131P/p1791819597047639. Dexter posts to these threads himself as part of his routine. Do not list "send to client review" or "post Ready to Launch" in "Needs you today". Just show those batches in the pipeline.
-- Never name batch numbers in a client facing draft unless Dexter asks. Batch numbers are fine in the briefing and in strategist and editor drafts.
+- Never name batch numbers in a client facing draft unless Dexter asks. The one exception is the Ready to launch and Ready to review lists in the client update draft, which always use hyperlinked batch numbers. Batch numbers are fine in the briefing and in strategist and editor drafts.
 - Never send, post or change anything.
 
 ## Output
