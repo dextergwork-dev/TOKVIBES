@@ -18,7 +18,7 @@ Get the current time in America/New_York first (`TZ=America/New_York date`), and
 
 - Client: Earthling Co (DFY Engine). Contact: Kevin McQuiston. Grace (client team) launches ads.
 - Strategist: Kofoshi. Brief reviewer: Oli (Oli Cimet).
-- Editors: Faiaz Nihal (video), Celina (statics). A test editor may be added to the Earthling channel.
+- Editors: Faisal Rafique (video, joined the Earthling team Nov 4; about 3 batches a day, 24 to 36 hour turnaround), Celina (statics), Faiaz Nihal (edited Earthling videos in Sprint 1 and 2, now mostly on other brands). Always trust the batch's Editor field over this list.
 - Pipeline: ClickUp folder "Earthling Co [DFY]" (id 901214683993). Use `clickup_get_folder` to find the current sprint list. Known lists: Sprint 1 (901222170411, closed), Sprint 2 (901223354515, 10/19 to 11/15). Filter tasks with `subtasks: true, include_closed: true, order_by: updated`. Skip archived or done sprints.
 - Slack (read with `slack_read_channel`, `oldest`/`latest` epoch seconds, then `slack_read_thread` for threads with replies): #earthlingco-client C0C1YHT6411, #earthlingco-strategy C0C1BJUH93N, #earthlingco-editing C0C252JBREE, #earthlingco-approved C0C5HJ2P9N0 (private to Dexter).
 - Ops tasks mentioning Earthling: ClickUp list "Operation Tasks" (901220530358). Search with `clickup_search` keywords "Earthling", created in the window.
@@ -31,11 +31,13 @@ Get the current time in America/New_York first (`TZ=America/New_York date`), and
 Statuses and owners: Brief Review (Oli) · Brief Feedback (Kofoshi) · Ready to Edit (editors) · Editing (editors) · Edit Review (Kofoshi) · Edit Feedback (editors) · Approved - Prep Files (Dexter) · Ready to Launch · Launched.
 
 - Oli does not review Earthling briefs. Oli said so on Oct 14: briefs go straight to Ready to Edit once Kofoshi finishes them. Brief Review status can still appear, so report it, but do not treat it as a required step.
-- Set format (static or video) and assign the editor, then move to Ready to Edit. Static goes to Celina, video to Faiaz.
-- Earthling runs on daily delivery: about 5 batches a week, roughly one a day, with the week's batches due on the container task's due date.
+- Set format (static or video) and assign the editor, then move to Ready to Edit. Static goes to Celina, video goes to Faisal. The Editor field must be set before the status moves to Ready to Edit, because an automation notifies the editor. Kofoshi sets the editor when she moves a brief; check it landed.
+- Earthling runs on 5 batches a week, with a fixed handoff to editors on Monday (Oli, Nov 4). Batch due dates are set per task, so check each task's due date. Kofoshi splits her time between Earthling, Ivy, NorCal and some Hommey.
 - Batch tasks are named B0xx and sit under Week 1 to 4 container tasks. Week containers (and the Research task) are not batches, so count only B-numbered tasks.
 - Map ClickUp statuses to the nearest equivalent if names differ and say so. Count "launched" as done.
-- Time in status is not available (the ClickApp is off), so use each task's `date_updated` as the time it entered its current status and say that is an approximation.
+- Time in status: the Total Time in Status ClickApp is off, but each batch has custom fields Editor, Strategist, Status Changed and Days in Status. `filter_tasks` does not return them, so call `clickup_execute_operator` with model `task`, operator `get_many`, body `{"ids": [...]}` and a JMESPath `query` to read them (field ids: Editor 53592969-f371-4d5d-90a5-e46f1a242f94, Strategist 7e6fb749-f271-4ba8-8803-d43218026468, Days in Status ba32a81b-3d77-4250-b38f-d75c4a81bf2b, Status Changed bc8724b7-6e56-4d45-801c-5eec56aabd04; user ids map through `clickup_get_workspace_members`). Prefer Status Changed. If a status was re-set (for example by an automation), use Slack timestamps for the real queue time and say so. Days in Status can be stale, so do not rely on it alone.
+- The raw footage and b-rolls live on the client's library website (login is in Quick Links; never repeat it) and in Drive folders Kevin shares. Editors do not need Drive access to start.
+- Ready to Launch posts and the client's replies ("can you launch these", Grace's confirmations) are in one long thread in #earthlingco-client (parent posted Oct 22, ts 1792675555.746979, titled Threads for Deliverables). Channel history does not show thread replies, so read that thread every run.
 
 ## Blocker rules
 
@@ -45,7 +47,7 @@ Flag 🚩 when: Editing or Edit Feedback for more than 2 days; Brief Review, Bri
 
 - Client update draft: Monday, Wednesday and Friday only. On other days write "Client update: not scheduled today (Mon/Wed/Fri)". Still scan the client channel and list anything needing a reply under Action for Dexter.
 - Strategist and editor drafts: every day, when there is something to say.
-- Sprint check: if the sprint ends within 5 days or most batches are launched, set "Sprint about to wrap = YES" and add a next-sprint question to the client draft.
+- Sprint check: Sprint 2 is Earthling's last sprint. Kevin said the ads have not beaten his trybe creators, Oli confirmed there will be no further sprint, and the team finishes the current sprint (Week 4 included). So never add a next-sprint question to the client draft. Report whether Sprint 2 will close on time (Nov 15).
 
 ## What to gather
 
