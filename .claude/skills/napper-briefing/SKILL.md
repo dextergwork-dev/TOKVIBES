@@ -1,6 +1,6 @@
 ---
 name: napper-briefing
-description: Run the Napper App (Strategy Engine) daily client movement briefing for Dexter, as the 8:30 AM ET morning run or the 12:30 PM ET midday rerun. Use whenever Dexter asks for the Napper morning brief, latest Napper update, Napper status, "rerun the briefing for Napper", or what moved on Napper, even if he doesn't say "briefing". Covers Notion pipeline posts, the Deliveries | Napper launch spreadsheet, ClickUp, Slack, Gmail and Fireflies. Read-only; delivers the briefing and copy-paste drafts in chat.
+description: Run the Napper App (Strategy Engine) daily client movement briefing for Dexter, as the 8:30 AM ET morning run or the 12:30 PM ET midday rerun. Use whenever Dexter asks for the Napper morning brief, latest Napper update, Napper status, "rerun the briefing for Napper", or what moved on Napper, even if he doesn't say "briefing". Covers the live Napper Notion pipeline, the Deliveries | Napper launch spreadsheet, Meta Ads (TOKB ads in the Napper ad account), ClickUp, Slack, Gmail and Fireflies. Read-only; delivers the briefing and copy-paste drafts in chat.
 ---
 
 # DAILY CLIENT MOVEMENT BRIEFING: TokVibes (Napper App, Strategy Engine)
@@ -21,7 +21,7 @@ This routine is fully READ-ONLY. Never send, post or DM anything in Slack (the c
 ## RUN TYPES
 - MORNING RUN (8:30 AM ET): full briefing covering the last 24 hours (Mondays: since Friday 8:30 AM ET). Use the MORNING OUTPUT format.
 - MIDDAY RERUN (12:30 PM ET) or any "latest update" request later in the day: report only what changed since the last briefing in this conversation (or since 8:30 AM ET). Use the MIDDAY OUTPUT format. Only include a draft when something changed that Dexter needs to send.
-- Work out the window start as a Slack timestamp from the current time (America/New_York) and pass it as `oldest` when reading channels.
+- Work out the window start as a Slack timestamp and pass it as `oldest` when reading channels. NEVER calculate the epoch by hand (a hand-calculated window once hid a whole day of messages). Run bash: `TZ=America/New_York date '+%a %Y-%m-%d %H:%M %Z'` for the current time, and `date -u -d '2026-11-05 15:30' +%s` (UTC time) for the epoch. Remember US clocks are EST (UTC-5) after Nov 1. If a channel read returns nothing, sanity-check the window is not in the future before reporting "quiet".
 
 ## UPDATE SCHEDULE
 Work out today's weekday in America/New_York.
@@ -49,12 +49,23 @@ Notion statuses and who owns them:
 - Ideation -> not started
 ClickUp's "launched" status on a batch means the brief was delivered, not that the ad is live. Don't read it as an ad launch.
 
-## STEP 1: PIPELINE STATE
-The Notion pipeline lives in Napper's workspace (https://app.notion.com/p/napper/Napper-Tok-Vibes-Pipeline-3e4de684f7f180d6a42ec0960f82dbd5). Try notion-fetch first. It has returned 404 every time so far because the connected account has no access (Dexter confirmed on Oct 28 that only one Notion workspace can be connected, and Napper's is not). If it fails, say so plainly and rebuild status movement from:
-- the Notion bot posts ("X edited in Napper <> Tok-Vibes Pipelines") in #napper-strategy, #napper-editor, #napper-approved and #napper-client (they show BRIEF REVIEW, EDIT REVIEW AVAILABLE, Revisions Needed, Approved - Prep Files, Ready to Launch),
+## STEP 1: PIPELINE STATE (Notion is live)
+Napper's Notion is connected. Query it directly with notion-query-data-sources on data source collection://4a5de684-f7f1-82c0-acee-876545da97a3 (page: https://app.notion.com/p/napper/Napper-Tok-Vibes-Pipeline-3e4de684f7f180d6a42ec0960f82dbd5). Columns: "Name", "Status", "Strategist", "Editor", "Last edited time", "Created time". Count per status, and use Last edited time for days in status. If Notion ever fails (404 or auth), say so plainly and rebuild from:
+- the Notion bot posts ("X edited in Napper <> Tok-Vibes Pipelines") in #napper-strategy, #napper-editor, #napper-approved and #napper-client,
 - Notion comment emails in Dexter's Gmail,
 - ClickUp.
-Label counts you could not verify as "No data" or "estimated, unverified". If Dexter pastes the Notion board or a screenshot, use it as the source of truth and recount per status. Days are approximate when based on "last edited".
+Label counts you could not verify as "No data" or "estimated, unverified". If Dexter pastes the Notion board or a screenshot, use it as the source of truth.
+
+## STEP 1C: META ADS (read-only, TOKB ads)
+Use the Meta Ads connector, read-only (ads_get_ad_accounts, ads_get_ad_entities, ads_get_field_context). Never create, activate, pause or edit anything. Ad account: NapperAD (id 526106226971627, EUR, account time zone CET). Weekly campaigns are named 2026_YY (for example 2026_44). Ad names start with TOKB0XX. Report: new TOKB ads and the date created, which campaign each sits in, active vs paused, spend on winners (TOKB004 is the first winner; also watch TOKB012 and TOKB001), and batches the sheet calls Launched but Meta shows paused or missing. Flag mismatches for Dexter to raise with Marcus. Only run this on morning runs, or when Dexter asks about ads.
+
+## STATUS LIST FORMAT (when Dexter asks for status lists per channel)
+Check Ready to Edit, Editing, Edit Review, Edit Feedback and Brief Feedback in Notion. One line per batch, grouped for the channel that owns it:
+🟢 for Ready to Edit and Edit Review, 🔴 for Brief Feedback and Edit Feedback.
+[Brief No. linked to its ClickUp task] - [Status] | Editor: [Editor] | Strategist: [Strategist] | On Queue for [total time in status]
+
+## AREEB SYNC RULE
+When a brief is done, Areeb changes the status in Notion and in ClickUp at the same time so reports stay accurate. Compare Notion vs ClickUp each run and flag lags in the Action list.
 
 ## STEP 1B: LAUNCH SPREADSHEET (always check)
 Read the "Deliveries | Napper" Google Sheet with the Google Drive connector (read_file_content, file ID 1s6wzK9ndsOh6UuYlM7Ppgv4SAi5ik66oLa-oUBlI17E, link https://docs.google.com/spreadsheets/d/1s6wzK9ndsOh6UuYlM7Ppgv4SAi5ik66oLa-oUBlI17E/edit?gid=0#gid=0). It is the Ready to Launch / launch tracker shared with Napper and the best source for what is actually live.
