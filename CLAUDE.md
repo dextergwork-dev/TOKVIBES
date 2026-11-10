@@ -27,3 +27,7 @@ After a google-maps-scraper crawl, build the leads file with:
 It dedupes, sorts by review count, and splits the address into Address 1, City, State (2-letter) and Zip with no country, and drops the +1 from phone numbers. For businesses Google lists without an address, it fills City, State and Zip from the nearest ZIP to the map pin, and looks for Address 1 on the business website (blank if none). Needs `pip install zipcodes`. Keep lead files in `leads/` (gitignored).
 
 Each ZIP list request gets its own new leads file. Never merge it into an earlier file. Skip ZIPs already scraped only when the user says so.
+
+## Cytd lead runs
+
+Write queries as `hvac contractor 75001 #!#hvac contractor 75001` so input_id holds the search query. After the crawl, run `python3 scripts/cytd-clean.py <results.csv> leads/<date>_<metro>_<niche>.csv --queries <queries.txt> --niche ... --metro ... --date ... --target-leads 50 [--earlier <lead files>]`. It filters, scores A/B/C, dedupes, and stops adding zips once the target is hit. Keep the raw results.csv beside it.
