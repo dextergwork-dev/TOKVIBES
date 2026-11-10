@@ -24,6 +24,6 @@ After a google-maps-scraper crawl, build the leads file with:
 
     python3 scripts/gmaps-export.py <results.csv> leads/<name>.csv
 
-It dedupes, sorts by review count, and splits the address into Address 1, City, State (2-letter) and Zip with no country, and drops the +1 from phone numbers. Keep lead files in `leads/` (gitignored).
+It dedupes, sorts by review count, and splits the address into Address 1, City, State (2-letter) and Zip with no country, and drops the +1 from phone numbers. For businesses Google lists without an address, it fills City, State and Zip from the nearest ZIP to the map pin, and looks for Address 1 on the business website (blank if none). Needs `pip install zipcodes`. Keep lead files in `leads/` (gitignored).
 
 Each ZIP list request gets its own new leads file. Never merge it into an earlier file. Skip ZIPs already scraped only when the user says so.
